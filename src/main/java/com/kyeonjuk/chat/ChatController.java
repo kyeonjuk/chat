@@ -11,4 +11,14 @@ public class ChatController {
         return "chats";
     }
 
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
+
+    @GetMapping("/updateMyProfile")
+    public String updateMyProfile() {
+        return "updateMyProfile";
+    }
+
 }
