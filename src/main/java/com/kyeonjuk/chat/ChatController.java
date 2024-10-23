@@ -21,4 +21,14 @@ public class ChatController {
         return "updateMyProfile";
     }
 
+    @GetMapping("/my-info")
+    public String myInfo() {
+        return "my-info";
+    }
+
+    @GetMapping("/findFriend")
+    public String findFriend() {
+        return "findFriend";
+    }
+
 }

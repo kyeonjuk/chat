@@ -11,6 +11,7 @@ public class ChatApplication {
 		System.out.println("http://localhost:8080/");
 		System.out.println("http://localhost:8080/login");
 		System.out.println("http://localhost:8080/updateMyProfile");
+		System.out.println("http://localhost:8080/my-info");
+		System.out.println("http://localhost:8080/findFriend");
 	}
-
 }

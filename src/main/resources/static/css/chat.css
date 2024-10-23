@@ -277,7 +277,7 @@ message-area
     box-shadow: inherit;
 }
 
-a.add img {
+a.add {
     height: 36px;
 }
 
@@ -391,7 +391,7 @@ a.add img {
 }
 
 .moreoption li .nav-link {
-    color: #222;
+    color: rgba(255, 65, 108, 0.8);
     font-size: 16px;
 }
 
@@ -478,7 +478,7 @@ a.add img {
     height: 0;
     border-style: solid;
     border-width: 0 12px 15px 12px;
-    border-color: transparent transparent #4b7bec transparent;
+    border-color: transparent transparent rgb(255 103 135) transparent;
     -webkit-transform: rotate(37deg);
     -ms-transform: rotate(37deg);
     transform: rotate(37deg);
@@ -490,7 +490,7 @@ a.add img {
     line-height: 1.5;
     font-weight: 400;
     padding: 15px;
-    background: #4b7bec;
+    background: linear-gradient(to right, rgba(255, 75, 43, 0.8), rgba(255, 65, 108, 0.8));
     display: inline-block;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -587,7 +587,7 @@ li.repaly .time {
 
 .send-box button {
     border: none;
-    background: #3867d6;
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
     padding: 0.375rem 5px;
     color: #fff;
     border-radius: 0.25rem;

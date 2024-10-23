@@ -23,31 +23,22 @@
   <script th:src="@{https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js}" crossorigin="anonymous" defer></script>
 
   <!-- css / js -->
-  <link rel="stylesheet" th:href="@{/css/updateMyProfile.css}">
-  <script th:src="@{/js/updateMyProfile.js}" defer></script>
+  <link rel="stylesheet" th:href="@{/css/my-info.css}">
+  <script th:src="@{/js/my-info.js}" defer></script>
 </head>
 <body>
 
 <div class="container">
-  <h2 class="text-center">내 정보 수정</h2>
-  <form>
-    <div class="mb-3 text-center">
-      <img th:src="@{/images/100.png}" alt="Profile Image" class="profile-image">
-      <div class="mt-2">
-        <input type="file" class="form-control" id="profileImage" accept="image/*">
-      </div>
-    </div>
-    <div class="mb-3">
-      <label for="username" class="form-label">사용자 이름</label>
-      <input type="text" class="form-control" id="username" placeholder="사용자 이름을 입력하세요">
-    </div>
-    <div class="mb-3">
-      <label for="statusMessage" class="form-label">상태 메시지</label>
-      <textarea class="form-control" id="statusMessage" rows="3" placeholder="상태 메시지를 입력하세요"></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">저장하기</button>
-  </form>
+  <h2 class="text-center">내 프로필</h2>
+  <div class="mb-3 text-center">
+    <img th:src="@{/images/100.png}" alt="Profile Image" class="profile-image">
+    <h3 id="username">사용자 이름</h3>
+    <p id="email">@이메일</p>
+    <p id="statusMessage">상태 메시지</p>
+  </div>
+  <a href="/updateMyProfile" class="btn btn-primary">내 정보 수정</a>
 </div>
+
 
 </body>
 </html>
