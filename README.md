@@ -1,8 +1,8 @@
 # chat_front
 
 **[프론트] 채팅 플랫폼**
+![localhost_8080_](https://github.com/user-attachments/assets/8b5acf1a-66f3-498e-bb26-5bd4fd498467)
 
-![image](https://github.com/user-attachments/assets/d222f0f5-9b51-4d7a-9a7e-545bd1c0516f)
 
 <br>
 <br>
@@ -19,5 +19,12 @@
 <br>
 <br>
 
+**[프론트] 내정보 조회 페이지**
+![localhost_8080_my-info](https://github.com/user-attachments/assets/1aa3e351-1e62-4409-985b-31c5c9c76093)
+
+<br>
+<br>
+
 **[프론트] 내정보 수정 페이지**
-![localhost_8080_updateMyProfile](https://github.com/user-attachments/assets/eeec8c4f-dbbf-42fd-ab24-53f5fbd96723)
+![localhost_8080_updateMyProfile (1)](https://github.com/user-attachments/assets/a503bd2c-f7e5-4ac5-ba7e-62f4ec946f87)
+
