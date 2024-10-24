@@ -309,14 +309,15 @@ a.add {
 
 .chat-area .nav-tabs .nav-item.show .nav-link,
 .chat-area .nav-tabs .nav-link.active {
-    color: #222;
+    color: #FF416C;
     background-color: #fff;
-    border-color: transparent transparent #000;
+    font-weight: 900;
+    border-color: transparent transparent #FF416C;
 }
 
 .chat-area .nav-tabs .nav-link:focus,
 .chat-area .nav-tabs .nav-link:hover {
-    border-color: transparent transparent #000;
+    border-color: transparent transparent #FF416C;
     isolation: isolate;
 }
 

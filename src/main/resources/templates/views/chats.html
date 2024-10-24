@@ -47,7 +47,7 @@
                                             <div class="heading-avatar-icon align-items-center d-flex">
                                                 <img src="https://bootdey.com/img/Content/avatar/avatar1.png">
                                                 <div class="ms-3">
-                                                    <h3 class="chat-nick">홍길동</h3>
+                                                    <h3 class="chat-nick">성원진</h3>
                                                     <p class="chat-simple-message">상태 메시지입니다.</p>
                                                 </div>
                                             </div>
@@ -63,7 +63,9 @@
                                         <!-- 모달 -->
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                             <li><a class="dropdown-item" href="/my-info">내 정보 보기</a></li>
-                                            <li><a class="dropdown-item" href="/logout">로그아웃</a></li>
+                                            <li><a class="dropdown-item" href="/my-info">친구 추가</a></li>
+                                            <li><hr class="dropdown-divider"></li>  <!-- 구분선 -->
+                                            <li><a class="dropdown-item logout" href="/logout">로그아웃</a></li>
                                         </ul>
 
                                     </div>
@@ -81,14 +83,14 @@
                                             <button class="nav-link active" id="Open-tab" data-bs-toggle="tab"
                                                     data-bs-target="#Open" type="button" role="tab" aria-controls="Open"
                                                     aria-selected="true">
-                                                Open
+                                                친구
                                             </button>
                                         </li>
                                         <li class="nav-item" role="presentation">
                                             <button class="nav-link" id="Closed-tab" data-bs-toggle="tab"
                                                     data-bs-target="#Closed" type="button" role="tab"
                                                     aria-controls="Closed" aria-selected="false">
-                                                Closed
+                                                채팅
                                             </button>
                                         </li>
                                     </ul>
@@ -110,7 +112,7 @@
 <!--                                                            <span th:class="${user.isActive} ? 'active' : ''"></span>-->
 <!--                                                        </div>-->
 <!--                                                        <div class="flex-grow-1 ms-3">-->
-<!--                                                            <h3 th:text="${user.name}">홍길동</h3>-->
+<!--                                                            <h3 th:text="${user.name}">성원진</h3>-->
 <!--                                                            <p th:text="${user.jobTitle}">front end developer</p>-->
 <!--                                                        </div>-->
 <!--                                                    </a>-->
@@ -126,7 +128,7 @@
                                                         </div>
 
                                                         <div class="flex-grow-1 ms-3">
-                                                            <h3>홍길동</h3>
+                                                            <h3>성원진</h3>
                                                             <p>front end developer</p>
                                                         </div>
                                                     </a>
@@ -148,7 +150,7 @@
 <!--                                                            <span th:class="${user.isActive} ? 'active' : ''"></span>-->
 <!--                                                        </div>-->
 <!--                                                        <div class="flex-grow-1 ms-3">-->
-<!--                                                            <h3 th:text="${user.name}">홍길동</h3>-->
+<!--                                                            <h3 th:text="${user.name}">성원진</h3>-->
 <!--                                                            <p th:text="${user.jobTitle}">front end developer</p>-->
 <!--                                                        </div>-->
 <!--                                                    </a>-->
@@ -164,7 +166,7 @@
                                                             <span class="active"></span>
                                                         </div>
                                                         <div class="flex-grow-1 ms-3">
-                                                            <h3>홍길동</h3>
+                                                            <h3>성원진</h3>
                                                             <p>front end developer</p>
                                                         </div>
                                                     </a>
@@ -231,13 +233,13 @@
 
                                                 <!-- thymeleaf 대화 상대 정보 -->
 <!--                                                <div class="flex-grow-1 ms-3">-->
-<!--                                                    <h3 th:text="${targetUser.name}">홍길동</h3>
+<!--                                                    <h3 th:text="${targetUser.name}">성원진</h3>
                                                        <p th:text="${targetUser.job}">front end developer</p>
                                                     </div>-->
                                                 <!-- // thymeleaf 대화 상대 정보 -->
 
                                                 <div class="flex-grow-1 ms-3">
-                                                    <h3>홍길동</h3>
+                                                    <h3>성원진</h3>
                                                     <p>front end developer</p>
                                                 </div>
                                             </div>
