@@ -1,8 +1,7 @@
 # chat_front
 
 **[프론트] 채팅 플랫폼**
-![localhost_8080_](https://github.com/user-attachments/assets/8b5acf1a-66f3-498e-bb26-5bd4fd498467)
-
+![localhost_8080_ (4)](https://github.com/user-attachments/assets/8f7e8a31-aafb-4347-9a24-5c3a22caafcb)
 
 <br>
 <br>
