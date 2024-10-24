@@ -28,3 +28,10 @@
 **[프론트] 내정보 수정 페이지**
 ![localhost_8080_updateMyProfile (1)](https://github.com/user-attachments/assets/a503bd2c-f7e5-4ac5-ba7e-62f4ec946f87)
 
+<br>
+<br>
+
+**[프론트] 친구 찾기 페이지**
+![localhost_8080_findFriend](https://github.com/user-attachments/assets/3c46e99a-c487-4c0a-9350-125c34ca969f)
+![localhost_8080_findFriend (2)](https://github.com/user-attachments/assets/c0c7b7b1-1bbd-42ed-91b4-49af8123b8c9)
+![localhost_8080_findFriend (1)](https://github.com/user-attachments/assets/f090501d-2f5b-4fe0-9664-ba70b9614779)
