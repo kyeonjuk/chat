@@ -32,5 +32,9 @@
 
 **[프론트] 친구 찾기 페이지**
 ![localhost_8080_findFriend](https://github.com/user-attachments/assets/3c46e99a-c487-4c0a-9350-125c34ca969f)
+
+- 검색한 친구 정보가 존재할 경우 
 ![localhost_8080_findFriend (2)](https://github.com/user-attachments/assets/c0c7b7b1-1bbd-42ed-91b4-49af8123b8c9)
+
+- 검색한 친구 정보가 존재하지 않을 경우 
 ![localhost_8080_findFriend (1)](https://github.com/user-attachments/assets/f090501d-2f5b-4fe0-9664-ba70b9614779)
